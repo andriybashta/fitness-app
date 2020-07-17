@@ -1,21 +1,22 @@
 # fitness-app
 
 Features:
-SwiftUI
-Realm
-EnvironmentObject/ObservableObject/Data Store
-Wrapped UIKit elements: Activity indicator, AVPlayer
-ButtonStyle
-JSON/Codable/Firebase
-Custom fonts
-And more
+- SwiftUI
+- Realm
+- EnvironmentObject/ObservableObject/Data Store
+- Wrapped UIKit elements: Activity indicator, AVPlayer
+- ButtonStyle
+- ViewModifier
+- JSON/Codable/Firebase
+- Custom fonts
+- And more
 
 Instructions:
-Clone repository
-Open Terminal
-cd project_folder_name 
-pod install
-Open .xcworkspace file
+- Clone repository
+- Open Terminal
+- cd project_folder_name 
+- pod install
+- Open .xcworkspace file
 
 Notes: 
 1. SwiftPM automatically downloads “NavigationStack” that helps with navigation in first SwiftUI version
