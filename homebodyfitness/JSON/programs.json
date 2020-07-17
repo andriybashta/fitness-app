@@ -1,0 +1,46 @@
+[ {
+  "exercises" : [ {
+    "name" : "Neck extensions",
+    "isPremium" : true,
+    "textRepresentation" : "This exercise targets the front of your neck. You can do this exercise by moving with each breath instead of holding the position. Inhale as you look up and exhale as you return to the starting position. Begin in a seated position. Slowly bend your neck backward and gaze up toward the ceiling. Hold this position for 5-10 seconds. Do 5 repetitions",
+    "videoURL" : ""
+  } ],
+  "imageURL" : "",
+  "isPremium" : true,
+  "name" : "Neck"
+}, {
+  "exercises" : [ {
+    "name" : "Scapular squeeze",
+    "isPremium" : false,
+    "textRepresentation" : "With your arms down by your sides, squeeze your shoulder blades together and hold for 10 seconds and release. Repeat 3 to 5 times.",
+    "videoURL" : ""
+  }, {
+    "name" : "Shoulder circles",
+    "isPremium" : true,
+    "textRepresentation" : "Stand with your left hand on the back of a chair. Allow your right hand to hang down. Circle your right hand 5 times in each direction. Repeat on the opposite side.  Do this 2–3 times per day.",
+    "videoURL" : ""
+  }],
+  "imageURL" : "",
+  "isPremium" : true,
+  "name" : "Shoulders & Hands"
+}, {
+  "exercises" : [ {
+    "name" : "Doorway shoulder stretch",
+    "isPremium" : false,
+    "textRepresentation" : "Stand in a doorway with your elbows and arms forming a 90-degree angle. Step your right foot forward as you press your palms into the sides of the door frame. Lean forward and engage your core. Hold this position for up to 30 seconds. Repeat the stretch with your left foot forward. Do each side 2–3 times.",
+    "videoURL" : ""
+  } ],
+  "imageURL" : "",
+  "isPremium" : true,
+  "name" : "For all body"
+}, {
+  "exercises" : [ {
+    "name" : "Dumbbell squat to deadlift",
+    "isPremium" : true,
+    "textRepresentation" : "Stand with your feet slightly closer than shoulder-width distance. Hold a light dumbbell in each hand. Keeping your chest up, squat down until your thighs are parallel to the ground. Bring the dumbbells around in front of your shins and begin to extend your legs in a deadlift movement. After return to standing, bring the dumbbells back to your sides and squat down again. Complete 3 sets of 10 reps.",
+    "videoURL" : ""
+  } ],
+  "imageURL" : "",
+  "isPremium" : true,
+  "name" : "Legs"
+} ]
