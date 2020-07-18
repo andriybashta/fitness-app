@@ -13,15 +13,8 @@ Features:
 - Custom fonts
 - And more
 
-Instructions:
-- Clone repository
-- Open Terminal
-- cd project_folder_name 
-- pod install
-- Open .xcworkspace file
-
 Notes: 
-1. SwiftPM automatically downloads “NavigationStack” that helps with navigation in first SwiftUI version
+1. SwiftPM automatically downloads “NavigationStack” that helps with navigation in first SwiftUI version and "Realm" database for storing data
 2. You can use FirebaseLoader.swift file instead JSONLoader.swift to load data from server: https://firebase.google.com/docs/ios/setup
 
 Requirements: 

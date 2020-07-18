@@ -1,6 +1,0 @@
-framework module Pods_homebodyfitness {
-  umbrella header "Pods-homebodyfitness-umbrella.h"
-
-  export *
-  module * { export * }
-}

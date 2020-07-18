@@ -2,6 +2,24 @@
   "object": {
     "pins": [
       {
+        "package": "Realm",
+        "repositoryURL": "https://github.com/realm/realm-cocoa.git",
+        "state": {
+          "branch": null,
+          "revision": "ef337f0991255d19e3a14f6c0d718a9f53a55d9a",
+          "version": "5.3.1"
+        }
+      },
+      {
+        "package": "RealmCore",
+        "repositoryURL": "https://github.com/realm/realm-core",
+        "state": {
+          "branch": null,
+          "revision": "430bc95a34dd0a72a5ebbdc87d4035f0b43096ae",
+          "version": "6.0.11"
+        }
+      },
+      {
         "package": "NavigationStack",
         "repositoryURL": "https://github.com/biobeats/swiftui-navigation-stack.git",
         "state": {

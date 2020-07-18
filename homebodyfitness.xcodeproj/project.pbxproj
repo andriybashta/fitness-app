@@ -44,7 +44,7 @@
 		2A975E35244F294C00752E4C /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A975E34244F294C00752E4C /* ButtonStyles.swift */; };
 		2AE28C85244C92A500107585 /* Oxanium-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AE28C83244C92A400107585 /* Oxanium-Regular.ttf */; };
 		2AE28C86244C92A500107585 /* Oxanium-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AE28C84244C92A500107585 /* Oxanium-Bold.ttf */; };
-		2AE28C8B244CB41D00107585 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 2AE28C8A244CB41D00107585 /* SwiftPackageProductDependency */; };
+		2AE28C8B244CB41D00107585 /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = 2AE28C8A244CB41D00107585 /* NavigationStack */; };
 		2AE28C8D244CB88200107585 /* SelectLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE28C8C244CB88200107585 /* SelectLevelView.swift */; };
 		AB737E7124C1A91E0002B71E /* advices.json in Resources */ = {isa = PBXBuildFile; fileRef = AB737E7024C1A91E0002B71E /* advices.json */; };
 		AB737E7324C1AA490002B71E /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB737E7224C1AA490002B71E /* TextExtension.swift */; };
@@ -57,7 +57,8 @@
 		AB9BB76524C1BD6100C9A301 /* RealmExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9BB76424C1BD6100C9A301 /* RealmExtension.swift */; };
 		AB9BB76724C1D6C400C9A301 /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9BB76624C1D6C400C9A301 /* StartingView.swift */; };
 		AB9BB76924C1D6D900C9A301 /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9BB76824C1D6D900C9A301 /* Training.swift */; };
-		E07519111FBC3D80481D1BA0 /* Pods_homebodyfitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935D3430788E6DA321222D25 /* Pods_homebodyfitness.framework */; };
+		AB9BB7DA24C3688300C9A301 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AB9BB7D924C3688300C9A301 /* RealmSwift */; };
+		AB9BB7DC24C3688300C9A301 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = AB9BB7DB24C3688300C9A301 /* Realm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,8 +102,6 @@
 		2AE28C83244C92A400107585 /* Oxanium-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxanium-Regular.ttf"; sourceTree = "<group>"; };
 		2AE28C84244C92A500107585 /* Oxanium-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oxanium-Bold.ttf"; sourceTree = "<group>"; };
 		2AE28C8C244CB88200107585 /* SelectLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelView.swift; sourceTree = "<group>"; };
-		34E9ADDEC62C8D3E2C2B4FD6 /* Pods-homebodyfitness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homebodyfitness.release.xcconfig"; path = "Target Support Files/Pods-homebodyfitness/Pods-homebodyfitness.release.xcconfig"; sourceTree = "<group>"; };
-		935D3430788E6DA321222D25 /* Pods_homebodyfitness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_homebodyfitness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB737E7024C1A91E0002B71E /* advices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = advices.json; sourceTree = "<group>"; };
 		AB737E7224C1AA490002B71E /* TextExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtension.swift; sourceTree = "<group>"; };
 		AB737E7924C1AC7A0002B71E /* JsonLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonLoader.swift; sourceTree = "<group>"; };
@@ -114,7 +113,6 @@
 		AB9BB76424C1BD6100C9A301 /* RealmExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmExtension.swift; sourceTree = "<group>"; };
 		AB9BB76624C1D6C400C9A301 /* StartingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
 		AB9BB76824C1D6D900C9A301 /* Training.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Training.swift; sourceTree = "<group>"; };
-		AFEA82BF24EDB9791FBA2B6C /* Pods-homebodyfitness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-homebodyfitness.debug.xcconfig"; path = "Target Support Files/Pods-homebodyfitness/Pods-homebodyfitness.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +120,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE28C8B244CB41D00107585 /* BuildFile in Frameworks */,
-				E07519111FBC3D80481D1BA0 /* Pods_homebodyfitness.framework in Frameworks */,
+				AB9BB7DC24C3688300C9A301 /* Realm in Frameworks */,
+				AB9BB7DA24C3688300C9A301 /* RealmSwift in Frameworks */,
+				2AE28C8B244CB41D00107585 /* NavigationStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,8 +132,6 @@
 		20DDC174C82B55A95732E198 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AFEA82BF24EDB9791FBA2B6C /* Pods-homebodyfitness.debug.xcconfig */,
-				34E9ADDEC62C8D3E2C2B4FD6 /* Pods-homebodyfitness.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -174,7 +171,6 @@
 				2A621E0423A527E6002033EC /* homebodyfitness */,
 				2A621E0323A527E6002033EC /* Products */,
 				20DDC174C82B55A95732E198 /* Pods */,
-				C26370E0B108AE64B6FC248D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -334,14 +330,6 @@
 			path = Exercise;
 			sourceTree = "<group>";
 		};
-		C26370E0B108AE64B6FC248D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				935D3430788E6DA321222D25 /* Pods_homebodyfitness.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -349,7 +337,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A621E1623A527EC002033EC /* Build configuration list for PBXNativeTarget "homebodyfitness" */;
 			buildPhases = (
-				36ABD3A0CAF0B4A64833D1DB /* [CP] Check Pods Manifest.lock */,
 				2A621DFE23A527E6002033EC /* Sources */,
 				2A621DFF23A527E6002033EC /* Frameworks */,
 				2A621E0023A527E6002033EC /* Resources */,
@@ -360,7 +347,9 @@
 			);
 			name = homebodyfitness;
 			packageProductDependencies = (
-				2AE28C8A244CB41D00107585 /* SwiftPackageProductDependency */,
+				2AE28C8A244CB41D00107585 /* NavigationStack */,
+				AB9BB7D924C3688300C9A301 /* RealmSwift */,
+				AB9BB7DB24C3688300C9A301 /* Realm */,
 			);
 			productName = homebodyfitness;
 			productReference = 2A621E0223A527E6002033EC /* Fitness.app */;
@@ -391,7 +380,8 @@
 			);
 			mainGroup = 2A621DF923A527E6002033EC;
 			packageReferences = (
-				2AE28C89244CB41D00107585 /* RemoteSwiftPackageReference */,
+				2AE28C89244CB41D00107585 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
+				AB9BB7D824C3688300C9A301 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 			);
 			productRefGroup = 2A621E0323A527E6002033EC /* Products */;
 			projectDirPath = "";
@@ -419,31 +409,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		36ABD3A0CAF0B4A64833D1DB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-homebodyfitness-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A621DFE23A527E6002033EC /* Sources */ = {
@@ -558,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -612,7 +577,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -624,7 +589,6 @@
 		};
 		2A621E1723A527EC002033EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFEA82BF24EDB9791FBA2B6C /* Pods-homebodyfitness.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -648,7 +612,6 @@
 		};
 		2A621E1823A527EC002033EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34E9ADDEC62C8D3E2C2B4FD6 /* Pods-homebodyfitness.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -694,7 +657,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2AE28C89244CB41D00107585 /* RemoteSwiftPackageReference */ = {
+		2AE28C89244CB41D00107585 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/biobeats/swiftui-navigation-stack.git";
 			requirement = {
@@ -702,13 +665,31 @@
 				kind = branch;
 			};
 		};
+		AB9BB7D824C3688300C9A301 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2AE28C8A244CB41D00107585 /* SwiftPackageProductDependency */ = {
+		2AE28C8A244CB41D00107585 /* NavigationStack */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2AE28C89244CB41D00107585 /* RemoteSwiftPackageReference */;
+			package = 2AE28C89244CB41D00107585 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */;
 			productName = NavigationStack;
+		};
+		AB9BB7D924C3688300C9A301 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB9BB7D824C3688300C9A301 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		AB9BB7DB24C3688300C9A301 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB9BB7D824C3688300C9A301 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
