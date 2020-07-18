@@ -1,6 +1,5 @@
 
 import SwiftUI
-import URLImage
 import NavigationStack
 
 struct TrainingsView: View {

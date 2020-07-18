@@ -1,6 +1,5 @@
 
 import SwiftUI
-import URLImage
 
 struct AdviceRow: View {
 	let advice: AdviceRealm

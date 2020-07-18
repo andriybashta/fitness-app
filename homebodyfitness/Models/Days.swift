@@ -13,7 +13,6 @@ class DayRealm: Object {
 }
 
 final class DaysStore: ObservableObject {
-	
 	@Published var items: [DayRealm] = []
 	@Published var feelings: [FeelingRealm] = []
 	

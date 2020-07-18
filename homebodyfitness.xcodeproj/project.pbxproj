@@ -44,7 +44,7 @@
 		2A975E35244F294C00752E4C /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A975E34244F294C00752E4C /* ButtonStyles.swift */; };
 		2AE28C85244C92A500107585 /* Oxanium-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AE28C83244C92A400107585 /* Oxanium-Regular.ttf */; };
 		2AE28C86244C92A500107585 /* Oxanium-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AE28C84244C92A500107585 /* Oxanium-Bold.ttf */; };
-		2AE28C8B244CB41D00107585 /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = 2AE28C8A244CB41D00107585 /* NavigationStack */; };
+		2AE28C8B244CB41D00107585 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 2AE28C8A244CB41D00107585 /* SwiftPackageProductDependency */; };
 		2AE28C8D244CB88200107585 /* SelectLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE28C8C244CB88200107585 /* SelectLevelView.swift */; };
 		AB737E7124C1A91E0002B71E /* advices.json in Resources */ = {isa = PBXBuildFile; fileRef = AB737E7024C1A91E0002B71E /* advices.json */; };
 		AB737E7324C1AA490002B71E /* TextExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB737E7224C1AA490002B71E /* TextExtension.swift */; };
@@ -122,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE28C8B244CB41D00107585 /* NavigationStack in Frameworks */,
+				2AE28C8B244CB41D00107585 /* BuildFile in Frameworks */,
 				E07519111FBC3D80481D1BA0 /* Pods_homebodyfitness.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,7 +360,7 @@
 			);
 			name = homebodyfitness;
 			packageProductDependencies = (
-				2AE28C8A244CB41D00107585 /* NavigationStack */,
+				2AE28C8A244CB41D00107585 /* SwiftPackageProductDependency */,
 			);
 			productName = homebodyfitness;
 			productReference = 2A621E0223A527E6002033EC /* Fitness.app */;
@@ -391,7 +391,7 @@
 			);
 			mainGroup = 2A621DF923A527E6002033EC;
 			packageReferences = (
-				2AE28C89244CB41D00107585 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
+				2AE28C89244CB41D00107585 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = 2A621E0323A527E6002033EC /* Products */;
 			projectDirPath = "";
@@ -694,7 +694,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		2AE28C89244CB41D00107585 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */ = {
+		2AE28C89244CB41D00107585 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/biobeats/swiftui-navigation-stack.git";
 			requirement = {
@@ -705,9 +705,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		2AE28C8A244CB41D00107585 /* NavigationStack */ = {
+		2AE28C8A244CB41D00107585 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 2AE28C89244CB41D00107585 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */;
+			package = 2AE28C89244CB41D00107585 /* RemoteSwiftPackageReference */;
 			productName = NavigationStack;
 		};
 /* End XCSwiftPackageProductDependency section */

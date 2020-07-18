@@ -1,7 +1,6 @@
 
 import SwiftUI
 import RealmSwift
-import URLImage
 
 struct ExerciseView: View {
 	

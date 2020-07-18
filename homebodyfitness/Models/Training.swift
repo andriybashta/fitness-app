@@ -13,7 +13,7 @@ class TrainingRealm: Object, Codable, Identifiable {
         return "name"
     }
     
-    private enum CodingKeys: String, CodingKey, Codable {
+    private enum CodingKeys: CodingKey {
         case name
         ,imageURL
         ,isPremium

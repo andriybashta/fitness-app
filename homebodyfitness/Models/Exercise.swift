@@ -11,7 +11,7 @@ class ExerciseRealm: Object, Codable, Identifiable {
     @objc dynamic var isPremium = false
     @objc dynamic var completedCount = 0
 	
-    private enum CodingKeys: String, CodingKey, Codable {
+    private enum CodingKeys: CodingKey {
            case name, textRepresentation, videoURL, isPremium
        }
     

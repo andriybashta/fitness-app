@@ -11,7 +11,7 @@ class AdviceRealm: Object, Codable {
 		return "id"
 	}
     
-    private enum CodingKeys: String, CodingKey, Codable {
+    private enum CodingKeys: CodingKey {
         case text, title
     }
     
