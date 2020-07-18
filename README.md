@@ -1,5 +1,7 @@
 # fitness-app
 
+<img src="https://raw.githubusercontent.com/andreybashta/fitness-app/master/preview.png"/>
+
 Features:
 - SwiftUI
 - Realm
@@ -25,5 +27,5 @@ Notes:
 Requirements: 
 Xcode 11.5+
 iOS 13.0+
-Swift 5.0+
+Swift 5.1+
 SwiftUI 1+
